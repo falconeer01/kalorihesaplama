@@ -1,0 +1,36 @@
+<script>
+    // function capitalize(str){
+    //     return str
+    //     .split(' ')
+    //     .map(word => word[0].toUpperCase() + word.slice(1))
+    //     .join(' ');
+    // }
+    // console.log(capitalize('hello world'));
+
+    // function sum(str){
+    //     let arr = [];
+    //     const result = str.replace(/[^0-9]/g, "");
+    //     result.split('').map(i => arr.push(i));
+    //     let z = arr.map(i => Number(i));
+    //     let a = z.reduce((total, i) => total + i);
+    //     return a;
+    // }
+    // console.log(sum('abc9994'));
+
+    // function getTimeDifference(timeRange) {
+    //     const [start, end] = timeRange.split('-');
+    //     const startTime = new Date(`01/01/2000 ${start}`);
+    //     const endTime = new Date(`01/01/2000 ${end}`);
+    //     const diffInMs = endTime - startTime;
+    //     const diffInMins = Math.floor(diffInMs / (60000));
+    //     return diffInMins;
+    // }
+    // console.log(getTimeDifference("12:30-13:30"));
+
+    // let buttons = document.querySelectorAll("button");
+    // buttons.forEach(button => button.addEventListener('click', write));
+    // function write(e){
+    //     let index = Array.from(buttons).indexOf(e.target);
+    //     alert(index);
+    // }
+</script>

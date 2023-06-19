@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-bar">
+            <div class="form">
+                <div class="input-bar">
+                    <label>Karbonhidrat</label>
+                    <input id="cho" type="text">
+                </div>
+                <div class="input-bar">
+                    <label>Protein</label>
+                    <input id="pro" type="text">
+                </div>
+                <div class="input-bar">
+                    <label>Yağ</label>
+                    <input id="fat" type="text">
+                </div>
+                <button class="hesapla">Hesapla</button>
+            </div>
+        </div>
+
+        <div class="pie-chart-bar">
+            <div class="pie-chart"></div>
+    
+            <div class="info">
+                <div class="amanin">
+                    <button style="background-color: dodgerblue; padding: 10px; margin: 5px"></button>
+                    <span id="karbonhidrat"></span>
+                </div>
+                <div class="amanin">
+                    <button style="background-color: yellow; padding: 10px; margin: 5px"></button>
+                    <span id="protein"></span>
+                </div>
+                <div class="amanin">
+                    <button style="background-color: red; padding: 10px; margin: 5px"></button>
+                    <span id="yag"></span>
+                </div>
+            </div>
+            <div class="totalCal"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

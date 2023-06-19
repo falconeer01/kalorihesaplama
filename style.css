@@ -1,0 +1,87 @@
+body{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pie-chart {
+    width: 340px;
+    height: 340px;
+    background: conic-gradient(
+        dodgerblue 0% 20%,
+        yellow 20% 60%,
+        red 60% 100%
+    );
+    border-radius: 50%;
+}
+
+.pie-chart-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin-right: 30px;
+}
+
+.info{
+    display: flex;
+    margin-top: 15px;
+}
+
+.amanin{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2;
+    grid-auto-flow: column;
+}
+
+.totalCal{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: bolder;
+}
+
+.hesapla{
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+input{
+    font-size: 24px;
+}
