@@ -40,9 +40,9 @@ function calculate(){
     )`;
 
     //değerleri sayfaya yazdırma:
-    let choSpan = document.querySelector('#karbonhidrat').innerHTML = `Karbonhidrat: ${choPercent}`;
-    let proSpan = document.querySelector('#protein').innerHTML = `Protein: ${proPercent}`;
-    let fatSpan = document.querySelector('#yag').innerHTML = `Yağ: ${fatPercent}`;
+    let choSpan = document.querySelector('#karbonhidrat').innerHTML = `Karbonhidrat: ${choPercent.toFixed(2)}`;
+    let proSpan = document.querySelector('#protein').innerHTML = `Protein: ${proPercent.toFixed(2)}`;
+    let fatSpan = document.querySelector('#yag').innerHTML = `Yağ: ${fatPercent.toFixed(2)}`;
     let totalCal = document.querySelector('.totalCal').innerHTML = `Toplam kalori: ${calorie}`
 
     //değerleri konsola yazdırma:
